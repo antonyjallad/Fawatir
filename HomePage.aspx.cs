@@ -16,12 +16,12 @@ namespace Fawatir
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Redirect("User.aspx");
+            Response.Redirect("user-login-form.aspx");
         }
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            Response.Redirect("ServiceProviderHomePage.aspx");
+            Response.Redirect("provider-login-form.aspx");
         }
     }
 }
